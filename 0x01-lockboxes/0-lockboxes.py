@@ -1,3 +1,15 @@
+#!/usr/bin/python3
+"""
+Lockboxes Module
+
+This module contains a function that solves the 'lockboxes' problem.
+In this problem, we have n number of locked boxes, each numbered sequentially
+from 0 to n-1. Each box may contain keys to other boxes. A key with the same
+number as a box opens that box. The goal is to determine if all boxes can
+be opened, starting with box 0 which is initially unlocked.
+"""
+
+
 def canUnlockAll(boxes):
     """
     Determines if all locked boxes can be opened.
