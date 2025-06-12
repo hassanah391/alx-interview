@@ -11,7 +11,8 @@ def makeChange(coins, total):
         coins (list): list of the values of the coins in your possession.
         total (int): the total amount.
     Returns:
-        int: fewest number of coins needed to meet total, or -1 if not possible.
+        int: fewest number of coins needed to meet total,
+        or -1 if not possible.
     """
     if total <= 0:
         return 0
@@ -29,4 +30,3 @@ def makeChange(coins, total):
         else:
             coin_idx += 1
     return coins_count
-
