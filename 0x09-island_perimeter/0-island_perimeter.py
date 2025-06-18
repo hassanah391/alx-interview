@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""Module 0-island_perimeter"""
+
+
 def island_perimeter(grid):
     """Returns the perimeter of the island described in the grid."""
     rows = len(grid)
