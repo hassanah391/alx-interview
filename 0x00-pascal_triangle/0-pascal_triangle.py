@@ -2,7 +2,6 @@
 """
 pascal_triangle
 """
-import math
 
 
 def pascal_triangle(n):
@@ -12,7 +11,7 @@ def pascal_triangle(n):
         return []
 
     triangle = []
-
+    import math
     for i in range(n):
         row = [math.comb(i, k) for k in range(i + 1)]
         triangle.append(row)
